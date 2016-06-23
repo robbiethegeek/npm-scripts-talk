@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "node ./test/first.spec.js",
-    "final-prestart": "echo 'prestart' && npm test",
-    "prestart": "echo 'prestart'",
-    "poststart": "echo 'poststart'",
-    "start": "echo 'start' && node index.js",
-    "lint": "echo 'lint' && eslint **/**.js",
-    "pretest": "echo 'pretest' && npm run lint",
+    "prestart": "echo 'command: prestart' && npm test",
+
+    "poststart": "echo 'command: poststart'",
+    "start": "echo 'command: start' && node index.js",
+    "lint": "echo 'command: lint' && eslint **/**.js",
+    "pretest": "echo 'command: pretest' && npm run lint",
     "fin": "clear && robbiethegeek"
   },
   "repository": {

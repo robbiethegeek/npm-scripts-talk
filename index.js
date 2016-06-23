@@ -1,3 +1,3 @@
 'use strict';
-let message = "index.js";
+let message = "\n------------------------------\n| Hi there meetup attendees! |\n------------------------------\n";
 console.log(message);
