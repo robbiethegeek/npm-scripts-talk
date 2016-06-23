@@ -10,7 +10,8 @@
     "poststart": "echo 'poststart'",
     "start": "echo 'start' && node index.js",
     "lint": "echo 'lint' && eslint **/**.js",
-    "pretest": "echo 'pretest' && npm run lint"
+    "pretest": "echo 'pretest' && npm run lint",
+    "fin": "clear && robbiethegeek"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   },
   "homepage": "https://github.com/robbiethegeek/npm-scripts-talk#readme",
   "devDependencies": {
-    "eslint": "^2.13.1"
+    "eslint": "^2.13.1",
+    "robbiethegeek": "^1.0.3"
   }
 }
