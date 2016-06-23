@@ -1,0 +1,32 @@
+{
+  "name": "npm-scripts-talk",
+  "version": "1.0.0",
+  "description": "This is the repository to accompany a lightening talk given by @robbiethegeek",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/first.spec.js",
+    "prestart": "echo 'prestart'",
+    "poststart": "echo 'poststart'",
+    "start": "echo 'start' && node index.js",
+    "lint": "echo 'lint' && eslint **/**.js",
+    "pretest": "echo 'pretest' && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbiethegeek/npm-scripts-talk.git"
+  },
+  "keywords": [
+    "npm",
+    "npmscripts",
+    "robbiethegeek"
+  ],
+  "author": "Robbie Holmes <robbiethegeek@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/robbiethegeek/npm-scripts-talk/issues"
+  },
+  "homepage": "https://github.com/robbiethegeek/npm-scripts-talk#readme",
+  "devDependencies": {
+    "eslint": "^2.13.1"
+  }
+}
