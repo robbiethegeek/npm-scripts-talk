@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node ./test/first.spec.js",
+    "final-prestart": "echo 'prestart' && npm test",
     "prestart": "echo 'prestart'",
     "poststart": "echo 'poststart'",
     "start": "echo 'start' && node index.js",
